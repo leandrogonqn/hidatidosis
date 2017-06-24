@@ -16,7 +16,7 @@ export class AppComponent {
     $(".button-collapse").sideNav({
       closeOneClick: true
     });
-    
+
     $(document).ready(function() {
     $('select').material_select();
   });
