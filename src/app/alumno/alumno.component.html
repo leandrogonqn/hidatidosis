@@ -1,0 +1,55 @@
+<div class="row">
+  <form class="col s12">
+    <div class="row">
+      <div class="input-field col s4">
+        <input id="nombre" type="text" class="validate">
+        <label for="nombre">Nombre</label>
+      </div>
+      <div class="input-field col s4">
+        <input id="apellido" type="text" class="validate">
+        <label for="apellido">Apellido</label>
+      </div>
+      <div class="input-field col s4">
+        <input id="dni" type="text" class="validate">
+        <label for="dni">DNI</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s4">
+        <label for="dtFechaNacimiento">Fecha Nacimiento</label>
+        <input id="dtFechaNacimiento" type="text" materialize="pickadate" [materializeParams]="[{selectMonths: true, selectYears: 100, max: true, formatSubmit: 'yyyy-mm-dd', monthsShort: [ 'Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic' ], weekdaysFull: [ 'Domingo', 'Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado' ], weekdaysShort: [ 'Dom', 'Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab' ], weekdaysLetter: ['D', 'L', 'M', 'X', 'J', 'V', 'S'],today: 'Hoy',clear: 'Limpiar',close:'Cerrar', monthsFull: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']}]">
+      </div>
+      <div class="input-field col s4">
+        <input id="domicilio" type="text" class="validate">
+        <label for="domicilio">Domicilio particular</label>
+      </div>
+      <div class="input-field col s4">
+        <input id="telefono" type="text" class="validate">
+        <label for="telefono">telefono</label>
+      </div>
+    </div>
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s12">
+            <label for="datosTutor">Datos del Tutor</label>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="row">
+      <div class="input-field col s4">
+        <input id="nombreTutor" type="text" class="validate">
+        <label for="nombreTutor">Nombre</label>
+      </div>
+      <div class="input-field col s4">
+        <input id="apellidoTutor" type="text" class="validate">
+        <label for="apellidoTutor">Apellido</label>
+      </div>
+      <div class="input-field col s4">
+        <input id="dniTutor" type="text" class="validate">
+        <label for="dniTutor">DNI</label>
+      </div>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,9 @@
+<div class="input-field col s6">
+      <input  id="txtNombre" type="text" class="validate" [(ngModel)]="nombre">
+      <label class="active" for="nombre">Nombre pa</label>
+    </div>
+    Nombre: {{nombre}}
+    <a class="waves-effect waves-light btn"(click)="verNombre(nombre)"><i class="material-icons left">cloud</i>Mostraar</a>
+    <app-hijo [nombreHijo] = "nombrePadre">
+
+    </app-hijo>

@@ -1,3 +1,22 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container">
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo right">Logo</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li> <a routerLink="/establecimiento">Establecimiento</a></li>
+
+      </ul>
+    </div>
+  </nav>
+  <router-outlet>
+  </router-outlet>
+  <footer class="page-footer">
+
+    <div class="footer-copyright">
+      <div class="container">
+        © 2014 Copyright Webpy
+
+      </div>
+    </div>
+  </footer>
+</div>

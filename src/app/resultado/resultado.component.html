@@ -1,0 +1,19 @@
+  <form action="#">
+    <div class="row">
+    <div class="col s6">
+    <p>
+      <input name="group1" type="radio" id="rdbPositivo" />
+      <label for="rdbPositivo">Positivo</label>
+    </p>
+    <p>
+      <input name="group1" type="radio" id="rdbNegativo" />
+      <label for="rdbNegativo">Negativo</label>
+    </p>
+     </div>
+<div class="col s6">
+
+   <label for="dtFechaResultado">Fecha Resultado</label>
+   <input id="dtFechaResultado" type="text" materialize="pickadate" [materializeParams]="[{today:'Hoy',selectMonths: true, selectYears: 100, max: true, formatSubmit: 'yyyy-mm-dd', monthsShort: [ 'Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic' ], weekdaysFull: [ 'Domingo', 'Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado' ], weekdaysShort: [ 'Dom', 'Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab' ], weekdaysLetter: ['D', 'L', 'M', 'X', 'J', 'V', 'S'],today: 'Hoy',clear: 'Limpiar',close:'Cerrar',  monthsFull: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']}]">
+  </div>
+  </div>
+  <form>

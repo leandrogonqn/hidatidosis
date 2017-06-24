@@ -1,0 +1,71 @@
+
+<div class="col s12 ">
+    <div class="card z-depth-5 ">
+      <div class="card-content black-text">
+        <span class="card-title">Establecimiento</span>
+
+        <div class="row">
+          <div class=" col s6">
+            <select id="cmbZona">
+            <option value="" disabled selected>Seleccione una zona</option>
+            <option value="1">Zona 1</option>
+            <option value="2">Zona 2</option>
+            <option value="3">Zona 3</option>
+            </select>
+          </div>
+          <div class=" col s6">
+            <select id="cmbEstablecimietnto">
+            <option value="" disabled selected>Seleccione un establecimiento</option>
+            <option value="1">Escuela Rural 1</option>
+            <option value="2">Escuela Rural 2</option>
+            <option value="3">Escuela Rural 3</option>
+            </select>
+          </div>
+        <div class="row">
+          <div class=" col s6">
+          <select id="cmbLocalidad">
+          <option value="" disabled selected>Seleccione una Localidad</option>
+          <option value="1">Localidad 1</option>
+          <option value="2">Localidad 2</option>
+          <option value="3">Localidad 3</option>
+          </select>
+
+          </div>
+          <div class=" col s6">
+          <select id="cmbProfesional">
+          <option value="" disabled selected>Seleccione un Profesional</option>
+          <option value="1">Profesional 1</option>
+          <option value="2">Profesional 2</option>
+          <option value="3">Profesional 3</option>
+          </select>
+          </div>
+        </div>
+
+        <label for="txtDocente">Docente</label>
+        <input id="txtDocente" type="text" class="validate">
+        
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="col s12 ">
+  <div class="card z-depth-5">
+    <div class="card-content black-text">
+      <span class="card-title">Alumno</span>
+      <app-alumno></app-alumno>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="col s12 ">
+  <div class="card z-depth-5">
+    <div class="card-content black-text">
+      <span class="card-title">Resultado</span>
+      <app-resultado></app-resultado>
+      <a class="waves-effect waves-light btn-large"><i class="material-icons right">done_all</i>Guardar</a>
+    </div>
+  </div>
+</div>
